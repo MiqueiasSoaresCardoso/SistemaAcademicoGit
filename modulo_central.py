@@ -73,6 +73,7 @@ print(f"Nota 1: {nota1}")
 pausa()
 print(f"Nota 2: {nota2}")
 pausa()
+print(f"Nota 3: {nota3}")
 print(f"Frequência: {frequencia}%")
 pausa()
 
@@ -86,6 +87,8 @@ pausa()
 
 if media >= 7 and frequencia >= 75:
     print("Situação: APROVADO")
+elif media >= 5 and frequencia >=75:
+    print("Situação: RECUPERAÇÃO")
 else:
     print("Situação: REPROVADO")
 
