@@ -39,15 +39,14 @@ nota1 = float(input("Digite a 1ª nota: "))
 pausa()
 nota2 = float(input("Digite a 2ª nota: "))
 pausa()
-frequencia = float(input("Digite a frequência (%): "))
+nota3 = float(input("Digite a 3ª nota: "))
 pausa()
-
 limpar_tela()
 print("Processando dados do aluno...")
 pausa(2)
 
 # Cálculo da média
-media = (nota1 + nota2) / 2
+media = (nota1 + nota2 + nota3) / 2
 
 # Exibição dos dados
 print("======================================")
